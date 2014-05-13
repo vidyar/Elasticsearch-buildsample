@@ -8,3 +8,7 @@ services:
 install: pip install --use-mirrors -r requirements.txt
 script:
  - python sample.py
+#include
+branches:
+  only:
+    - testing

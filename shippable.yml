@@ -10,4 +10,5 @@ script:
 #include
 branches:
   only:
-    - testing
+    - stage
+    - prod

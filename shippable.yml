@@ -9,6 +9,6 @@ script:
  - python sample.py
 #include
 branches:
-  only:
+  except:
     - stage
     - prod

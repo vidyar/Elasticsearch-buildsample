@@ -2,7 +2,7 @@ language: python
 python:
  - "2.7"
  #- "2.6"
- services:
+services:
  - elasticsearch
 install: pip install --use-mirrors -r requirements.txt
 script:

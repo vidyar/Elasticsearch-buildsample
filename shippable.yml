@@ -13,4 +13,4 @@ script:
 after_script: 
  - echo $key1
  - echo $key2
- build_image: shippable/minv2
+build_image: shippable/minv2

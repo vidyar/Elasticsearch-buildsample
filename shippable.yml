@@ -1,4 +1,4 @@
-language: python
+language: testing
 
 python:
  - "2.7"

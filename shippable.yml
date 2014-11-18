@@ -11,3 +11,4 @@ script:
 branches:
   except:
     - newbr1
+build_image: shippable/minv2

@@ -1,5 +1,6 @@
 language: python
 
+
 python:
  - "2.7"
  #- "2.6"
@@ -9,11 +10,13 @@ env:
 
 services: 
  - elasticsearch
+
  
 install: pip install --use-mirrors -r requirements.txt
 
 script:
  - python sample.py
+
 
 branches:
   except:

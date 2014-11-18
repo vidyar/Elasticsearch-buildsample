@@ -25,9 +25,9 @@ script:
 
 
 branches:
-  except:
-    - newbr1
-    - testnf
+  only:
+    - master
+    
     
 
 build_image: shippable/minv2

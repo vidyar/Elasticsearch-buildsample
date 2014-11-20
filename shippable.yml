@@ -1,4 +1,4 @@
-language: erlang
+language: aapython
 python:
  - "2.7"
  #- "2.6"
@@ -6,6 +6,7 @@ env:
  - secure: 2OazASlX3kad6OZ0mIWUNHk6evMNM5ShBUfbwED95cBXN5P5ene143gR5rJZVjmVf2W2FuqSEXpya1NINCF/IxWYHXyeW63dEgc8zj2vw/HB3ueqSNdybLWaKLvGV4fy5R1/VZaZy0NpQ6cDRRnrUSruCujdP7c6rRnpM14UsMw9RMRArf0cykvsEHJ0yfuBtALiQr/W8lcPMaYwr82r/vDrP4O1z9TbxDNcs0rpUdgUarwN22J7LT/hEch5iEhejnOl4SKPoee+ICUIflyU5b3QJsCKUp0dgbIsFoEq4VfA9zppRloDGcnra+Rh1Rc3EaJWYcHFlLyUbcapwv+m4w==
 services: 
  - elasticsearch
+
 install: pip install --use-mirrors -r requirements.txt
 
 script:
@@ -13,5 +14,6 @@ script:
 after_script: 
  - echo $key1
  - echo $key2
+ 
  
 build_image: shippable/minv2

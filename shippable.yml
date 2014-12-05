@@ -18,4 +18,4 @@ after_script:
  
  
 build_image: shippable/minv2
-commit_container: vidyar/es_python
+commit_container: vidyar/Elasticsearch-buildsample

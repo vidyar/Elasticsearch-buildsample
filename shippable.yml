@@ -17,4 +17,5 @@ after_script:
  - echo $key2
  
  
-#build_image: shippable/minv2
+build_image: shippable/minv2
+commit_container: vidyar/es_python

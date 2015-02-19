@@ -12,6 +12,7 @@ install: pip install --use-mirrors -r requirements.txt
 
 script:
  - python sample.py
+
 after_script: 
  - echo $key1
  - echo $key2

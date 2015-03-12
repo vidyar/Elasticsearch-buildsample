@@ -19,4 +19,11 @@ after_script:
  
  
 build_image: shippable/minv2
-commit_container: vidyar/Elasticsearch-buildsample
+#commit_container: vidyar/Elasticsearch-buildsample
+notifications:
+     email:
+         recipients:
+             - vidya@shippable.com
+             - exampletwo@org.com
+         on_success: always
+        # on_failure: always

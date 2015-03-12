@@ -21,7 +21,7 @@ script:
 
 
 branches:
-  except:
+  only:
     - newbr1
 
 build_image: shippable/minv2

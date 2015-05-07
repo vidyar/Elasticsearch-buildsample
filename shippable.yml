@@ -19,7 +19,7 @@ after_script:
  
  
 build_image: shippable/minv2
-commit_container: vidyar/Elasticsearch-buildsample
+commit_container: vidyar/Essample
 notifications:
      email:
          recipients:

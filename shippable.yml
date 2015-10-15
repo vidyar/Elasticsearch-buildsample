@@ -16,3 +16,5 @@ branches:
   except:
     - stage
     - prod
+    
+archive: true

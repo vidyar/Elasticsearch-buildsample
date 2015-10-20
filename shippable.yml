@@ -16,4 +16,4 @@ branches:
     - stage
     - prod
     
-#archive: true
+archive: true
